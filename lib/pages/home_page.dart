@@ -20,7 +20,6 @@ class _HomePageState extends State<HomePage> {
     toDoList[index][1] = !toDoList[index][1];
     setState(() {});
   }
-
   void saveNewTask() {
     setState(() {
       toDoList.add([_controller.text, false]);
